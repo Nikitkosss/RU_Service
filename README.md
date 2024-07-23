@@ -14,8 +14,8 @@
 ### Запуск проекта
 1. Клонировать репозиторий с проектом:
    ```
-   git clone https://github.com/your-repo/backend-test-project.git
-   cd backend-test-project
+   git clone https://github.com/Nikitkosss/RU_Service.git
+   cd RU_Service
    ```
 
 2. Установить необходимые зависимости:
@@ -29,12 +29,7 @@
    python manage.py migrate
    ```
 
-4. Запуск Celery для обработки задач в фоновом режиме:
-   ```
-   celery -A your_project_name worker --loglevel=info
-   ```
-
-5. Запуск Django сервера:
+4. Запуск Django сервера:
    ```
    python manage.py runserver
    ```
