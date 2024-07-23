@@ -15,7 +15,7 @@
 1. Клонировать репозиторий с проектом:
    ```
    git clone https://github.com/Nikitkosss/RU_Service.git
-   cd RU_Service
+   cd RUService
    ```
 
 2. Установить необходимые зависимости:
